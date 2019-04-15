@@ -12096,11 +12096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/w/Desktop/project/helloMvc/helloMvc.csproj",
+      "projectUniqueName": "/home/w/Documents/CodePro/BaoLIWeb/helloMvc/helloMvc.csproj",
       "projectName": "helloMvc",
-      "projectPath": "/home/w/Desktop/project/helloMvc/helloMvc.csproj",
+      "projectPath": "/home/w/Documents/CodePro/BaoLIWeb/helloMvc/helloMvc.csproj",
       "packagesPath": "/home/w/.nuget/packages/",
-      "outputPath": "/home/w/Desktop/project/helloMvc/obj/",
+      "outputPath": "/home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
