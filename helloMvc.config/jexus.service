@@ -1,0 +1,11 @@
+[Unit]
+Description=jexus
+After=network.target
+[Service]
+Type=forking
+ExecStart=/usr/jexus/jws start
+ExecReload=/usr/jexus/jws restart
+ExecStop=/usr/jexus/jws stop
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target
