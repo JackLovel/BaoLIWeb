@@ -1,0 +1,13 @@
+# web site: CoreDemo
+
+port=80
+root=/ /var/www/CoreDemo
+host=*
+#host=www.core.com
+
+NoLog=true
+AppHost={
+	CmdLine=dotnet /var/www/CoreDemo/helloMvc.dll;
+	AppRoot=/var/www/CoreDemo;
+	Port=0;
+}
