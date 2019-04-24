@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -16,10 +16,17 @@
               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        
+        body {
+            padding-top: 120px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  navbar-light bg-white  border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  fixed-top navbar-light bg-white  border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">
                     <img alt="Brand" src="~/images/logo.png">
@@ -56,7 +63,8 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - 小马宝利展会 - <a asp-area="" asp-page="/Privacy">火热报名中</a>
+            &copy; 2019 - 小马宝利展会
+            <!-- &copy; 2019 - 小马宝利展会 - <a asp-area="" asp-page="/Privacy">火热报名中</a> -->
         </div>
     </footer>
 

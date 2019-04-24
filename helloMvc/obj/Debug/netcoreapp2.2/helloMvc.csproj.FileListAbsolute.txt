@@ -30,3 +30,5 @@
 /home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/ContactUs.g.cshtml.cs
 /home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/SignUp.g.cshtml.cs
 /home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/KnowMore.g.cshtml.cs
+/home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/ProductInformation.g.cshtml.cs
+/home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/test.g.cshtml.cs
