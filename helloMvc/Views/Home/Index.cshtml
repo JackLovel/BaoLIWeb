@@ -48,7 +48,37 @@
 </div>
 
 <!--感谢赞助商部分-->
+            <!-- ViewData["table_col_two"] = "名字";
+            ViewData["table_col_three"] = "职位";
+
+            ViewData["table_row_one_role"] = "网站制作及布署";
+            ViewData["table_row_one_name"] = "叶落初冬";
+
+            ViewData["table_row_two_role"] = "美工";
+            ViewData["table_row_two_name"] = "蹄铁"; -->
+            
 <div class="text-center">
   <p></p>
   <h3>感谢赞助商</h3>
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">@ViewData["table_col_two"]</th>
+      <th scope="col">@ViewData["table_col_three"]</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>@ViewData["table_row_one_role"]</td>
+      <td>@ViewData["table_row_one_name"]</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>@ViewData["table_row_two_role"]</td>
+      <td>@ViewData["table_row_two_name"]</td>
+    </tr>
+  </tbody>
+</table>
 </div>
