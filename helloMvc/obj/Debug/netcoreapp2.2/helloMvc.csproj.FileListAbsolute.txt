@@ -32,3 +32,6 @@
 /home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/KnowMore.g.cshtml.cs
 /home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/ProductInformation.g.cshtml.cs
 /home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/test.g.cshtml.cs
+/home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Slide1Page.g.cshtml.cs
+/home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Slide2Page.g.cshtml.cs
+/home/w/Documents/CodePro/BaoLIWeb/helloMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Slide3Page.g.cshtml.cs

@@ -2779,6 +2779,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Home/Slide2Page.cshtml",
+      "TargetPath": "Views/Home/Slide2Page.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Slide1Page.cshtml",
+      "TargetPath": "Views/Home/Slide1Page.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Home/ContactUs.cshtml",
       "TargetPath": "Views/Home/ContactUs.cshtml",
       "FileKind": "mvc"
@@ -2801,6 +2811,11 @@
     {
       "FilePath": "Views/Home/ProductInformation.cshtml",
       "TargetPath": "Views/Home/ProductInformation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Slide3Page.cshtml",
+      "TargetPath": "Views/Home/Slide3Page.cshtml",
       "FileKind": "mvc"
     },
     {
