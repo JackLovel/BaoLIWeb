@@ -1,8 +1,47 @@
 ﻿@{
     ViewData["Title"] = "购票入口";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>这是一个购票入口的展示页</p>
-<p>购票</p>
-<p>商店连接</p>
+
+<div>
+    <h2>购票</h2>
+</div>
+
+<div class="text-center">
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">购买方式</th>
+      <th scope="col">点击购买</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>喵特网</td>
+      <td>
+        <a href=@ViewData["nyato"]>
+            <button type="button" class="btn btn-outline-primary">购买</button>     
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>摩点</td>
+      <td>
+        <a href=@ViewData["mo_dian"]>
+            <button type="button" class="btn btn-outline-primary">购买</button>     
+        </a>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+
+<div>
+    <h2>淘宝链接</h2>
+</div>
+
+<a href=@ViewData["tao_bao"]>
+    <button type="button" class="btn btn-outline-primary">访问</button>     
+</a>
