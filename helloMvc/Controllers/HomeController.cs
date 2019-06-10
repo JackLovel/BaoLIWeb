@@ -5,6 +5,8 @@ namespace helloMvc.Controllers
     public class HomeController : Controller
     {
         public IActionResult Index() {
+            ViewBag.tao_bao = "https://item.taobao.com/item.htm?spm=a230r.1.14.84.3cea526aNwFCsz&id=588644610500&ns=1&abbucket=12#detail";
+
             return View();
         }
 
@@ -19,9 +21,9 @@ namespace helloMvc.Controllers
         }
 
         public IActionResult BuyTicket() {
-            ViewData["nyato"] = "https://www.nyato.com/manzhan/15275/?section=1#nav-content&tdsourcetag=s_pcqq_aiomsg";
-            ViewData["mo_dian"] = "https://zhongchou.modian.com/item/59601.html";
-            ViewData["tao_bao"] = "https://item.taobao.com/item.htm?spm=a230r.1.14.84.3cea526aNwFCsz&id=588644610500&ns=1&abbucket=12#detail";
+            ViewBag.nyato = @"https://www.nyato.com/manzhan/15275/?section=1#nav-content&tdsourcetag=s_pcqq_aiomsg";
+            ViewBag.mo_dian= @"https://zhongchou.modian.com/item/59601.html";
+            ViewBag.tao_bao = @"https://item.taobao.com/item.htm?spm=a230r.1.14.84.3cea526aNwFCsz&id=588644610500&ns=1&abbucket=12#detail";
            
             return View();
         }
@@ -42,7 +44,11 @@ namespace helloMvc.Controllers
         }
 
         public IActionResult Slide3Page() {
-            return View();
+            ViewBag.nyato = "https://www.nyato.com/manzhan/15275/?section=1#nav-content&tdsourcetag=s_pcqq_aiomsg";
+            ViewBag.mo_dian= "https://zhongchou.modian.com/item/59601.html";
+            ViewBag.tao_bao = "https://item.taobao.com/item.htm?spm=a230r.1.14.84.3cea526aNwFCsz&id=588644610500&ns=1&abbucket=12#detail";
+            
+            return View("BuyTicket");
         }
     }
 }
